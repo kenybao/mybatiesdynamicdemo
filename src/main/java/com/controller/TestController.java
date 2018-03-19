@@ -20,7 +20,7 @@ import javax.annotation.Resource;
 @EnableAutoConfiguration
 public class TestController {
     @Resource
-    UserMapper userMapper;
+    UserMapper userMapper;;
     @GetMapping("/test1")
     @ResponseBody
     public String test(){
